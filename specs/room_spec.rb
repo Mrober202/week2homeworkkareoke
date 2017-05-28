@@ -30,7 +30,7 @@ class RoomTest < MiniTest::Test
 
   def test_song_playing()
     @room.put_song_in_room(@song1)
-    assert_equal("Hey Joe", @room.get_song_playing())
+    assert_equal("Hey Joe", @room.get_song_title())
   end
 
 
