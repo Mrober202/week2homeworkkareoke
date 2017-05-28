@@ -23,7 +23,8 @@ class Room
   end
 
   def put_song_in_room(song)
-    return @room_tunes << song
+   @room_tunes << song
+   return song.get_song_title()
   end
 
 end
