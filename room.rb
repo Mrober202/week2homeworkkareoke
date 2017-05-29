@@ -15,7 +15,8 @@ class Room
   end
 
   def get_song_playing()
-    return @room_tunes
+    return @room_tunes.first().get_song_title()
+
   end 
 
   def put_in_guest(guest)
